@@ -5,25 +5,57 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/calc_layout"
     tools:context=".BasicActivity">
 
     <TextView
-        android:id="@+id/tv_stack"
+        android:id="@+id/tv_num_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
         android:gravity="end"
         android:textSize="16sp"
-        tools:text="4512+" />
+        tools:text="4512" />
+
+    <TextView
+        android:id="@+id/tv_op"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:textSize="16sp"
+        tools:text="+" />
+
+    <TextView
+        android:id="@+id/tv_num_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:textSize="16sp"
+        tools:text="123" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/tv_num_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:textSize="16sp"
+        tools:text="4635" />
 
     <TextView
         android:id="@+id/tv_digitos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:background="@color/gold"
         android:gravity="end"
@@ -113,7 +145,8 @@
 
             <Button
                 android:id="@+id/button_mas"
-                android:text="@string/button_mas" />
+                android:text="@string/button_mas"
+                tools:ignore="DuplicateSpeakableTextCheck" />
         </TableRow>
 
         <TableRow>

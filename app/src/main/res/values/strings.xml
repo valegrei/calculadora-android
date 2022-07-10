@@ -11,7 +11,7 @@
     <string name="btn_calcular">Ir a Calcular</string>
     <string name="title_validar">Validación</string>
     <string name="msg_validar">Debe seleccionar una opción.</string>
-    <string name="yes">Sí</string>
+    <string name="yes">Si</string>
     <string name="no">No</string>
     <string name="title_construccion">En Construcción</string>
     <string name="msg_construccion">Calculadora %1$s en Construcción.\n\n¿Desea continuar?</string>
@@ -34,4 +34,5 @@
     <string name="button_igual">=</string>
     <string name="button_ce">ce</string>
     <string name="button_eliminar_digito"><![CDATA[<X]]></string>
+    <string name="ok">Ok</string>
 </resources>

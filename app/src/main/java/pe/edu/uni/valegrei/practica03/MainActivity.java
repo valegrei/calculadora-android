@@ -53,9 +53,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle(R.string.title_validar);
         builder.setMessage(R.string.msg_validar);
         builder.setCancelable(true);
-        builder.setPositiveButton(R.string.yes, (dialog, which) -> {
-            dialog.dismiss();
-        });
+        builder.setPositiveButton(R.string.yes, (dialog, which) -> dialog.dismiss());
         builder.create().show();
     }
 
