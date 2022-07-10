@@ -13,10 +13,10 @@ SplashActivity
 ![SplashActivity](splash.jpg)
 
 MainActivity
-![SplashActivity](main.jpg)
+![MainActivity](main.jpg)
 
 BasicActivity
-![SplashActivity](calcBasica.jpg)
+![BasicActivity](calcBasica.jpg)
 
 BasicActivity Ejemplo Operación
-![SplashActivity](calcBasicaEjemplo.jpg)
+![BasicActivityEjemplo](calcBasicaEjemplo.jpg)
