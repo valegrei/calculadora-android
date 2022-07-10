@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mi Calculadora</string>
+<!--    Splash-->
+    <string name="description_logo">logo</string>
+    <string name="txt_cargando">Cargando…</string>
+<!--    Main-->
+    <string name="txt_elegir">Elija un tipo de Calculadora</string>
+    <string name="txt_basica">Básica</string>
+    <string name="txt_cientifica">Científica</string>
+    <string name="txt_programador">Programador</string>
+    <string name="btn_calcular">Ir a Calcular</string>
+    <string name="title_validar">Validación</string>
+    <string name="msg_validar">Debe seleccionar una opción.</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="title_construccion">En Construcción</string>
+    <string name="msg_construccion">Calculadora %1$s en Construcción.\n\n¿Desea continuar?</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_c">C</string>
+    <string name="button_x">X</string>
+    <string name="button_dividir">/</string>
+    <string name="button_multiplicar">*</string>
+    <string name="button_menos">-</string>
+    <string name="button_mas">+</string>
+    <string name="button_igual">=</string>
+    <string name="button_ce">ce</string>
+    <string name="button_eliminar_digito"><![CDATA[<X]]></string>
+</resources>

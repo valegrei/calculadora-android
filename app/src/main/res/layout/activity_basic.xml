@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BasicActivity">
+
+    <TextView
+        android:id="@+id/tv_stack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="end"
+        android:textSize="16sp"
+        tools:text="4512+" />
+
+    <TextView
+        android:id="@+id/tv_digitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/gold"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="4512" />
+
+    <TableLayout
+        android:id="@+id/teclado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="ButtonStyle">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_ce"
+                android:text="@string/button_ce" />
+
+            <Button
+                android:id="@+id/button_c"
+                android:text="@string/button_c" />
+
+            <Button
+                android:id="@+id/button_eliminar"
+                android:text="@string/button_eliminar_digito" />
+
+            <Button
+                android:id="@+id/button_dividir"
+                android:text="@string/button_dividir" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <Button
+                android:id="@+id/button_7"
+                android:text="@string/button_7" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:text="@string/button_8" />
+
+            <Button
+                android:id="@+id/button_9"
+                android:text="@string/button_9" />
+
+            <Button
+                android:id="@+id/button_multiplicar"
+                android:text="@string/button_multiplicar" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_4"
+                android:text="@string/button_4" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:text="@string/button_5" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:text="@string/button_6" />
+
+            <Button
+                android:id="@+id/button_menos"
+                android:text="@string/button_menos" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_1"
+                android:text="@string/button_1" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:text="@string/button_2" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:text="@string/button_3" />
+
+
+            <Button
+                android:id="@+id/button_mas"
+                android:text="@string/button_mas" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+
+            <Button
+                android:id="@+id/button_0"
+                android:text="@string/button_0" />
+
+            <TextView />
+
+            <Button
+                android:id="@+id/button_igual"
+                android:text="@string/button_igual" />
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>
