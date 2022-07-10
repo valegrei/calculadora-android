@@ -10,13 +10,17 @@ Aplicativo Android de Calculadora.
 ## Capturas
 
 SplashActivity
+
 ![SplashActivity](splash.jpg)
 
 MainActivity
+
 ![MainActivity](main.jpg)
 
 BasicActivity
+
 ![BasicActivity](calcBasica.jpg)
 
 BasicActivity Ejemplo Operación
+
 ![BasicActivityEjemplo](calcBasicaEjemplo.jpg)
